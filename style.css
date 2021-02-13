@@ -1,0 +1,51 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100%;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #fdec12;
+
+}
+
+.todo__inner {
+    display: flex;
+
+}
+
+.todo__ul {
+    margin-top: 50px;
+}
+
+.content {
+    max-width: 600px;
+    min-height: calc(100vh - 75px)
+}
+
+.todo__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+
+    background-color: #000;
+    color: #fff;
+    font-weight: 300;
+    height: 50px;
+}
+
+.list-theme {
+    text-decoration: line-through;
+    color: red;
+}
